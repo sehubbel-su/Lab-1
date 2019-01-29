@@ -1,0 +1,69 @@
+html{
+
+}
+
+body{
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{ 
+    height: 60px;
+    line-height: 60px;
+    background-color: #eee8aa;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    }
+
+h1 {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+ul li{ 
+    margin-left: 20px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main{
+}
+
+.content{
+    margin:0px;
+    width: 70%;
+    background-color: lightgray;
+    min-height: 500px;
+    float: left;
+}
+
+.sidebar{
+    margin:0px;
+    width:30%;
+    background-color: darkgray;
+    color: white;
+    min-height: 500px;
+    float: left;
+}
+
+p{
+    padding: 20px;
+}
